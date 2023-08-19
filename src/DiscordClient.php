@@ -143,7 +143,7 @@ class DiscordClient
         $resolver->setDefaults(
             [
                 'version'           => $currentVersion,
-                'logger'            => new Logger('Logger'),
+                'logger'            => null,
                 'rateLimitProvider' => new MemoryRateLimitProvider(),
                 'throwOnRatelimit'  => false,
                 'apiUrl'            => "https://discord.com/api/v{$currentVersion}/",
