@@ -37,7 +37,7 @@ class ServiceDescriptionTest extends TestCase
     public function setUp(): void
     {
         $this->description = json_decode(
-            file_get_contents(__DIR__.'/../src/Resources/service_description-v9.json'),
+            file_get_contents(__DIR__.'/../src/Resources/service_description-v10.json'),
             true
         );
         $this->client      = new DiscordClient(['token' => 'fake-token']);
@@ -45,7 +45,7 @@ class ServiceDescriptionTest extends TestCase
 
     public function testBaseUri()
     {
-        $this->assertEquals('https://discordapp.com/api/v9', $this->description['baseUri']);
+        $this->assertEquals('https://discord.com/api/v10', $this->description['baseUri']);
     }
 
     public function testVersion()
