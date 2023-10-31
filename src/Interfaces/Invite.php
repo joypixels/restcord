@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface Invite {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/invite#delete-invite
+	 * @see https://discord.com/developers/docs/resources/invite#delete-invite
 	 *
 	 * @param array $options ['invite.code' => 'string']
 	 * @return array
@@ -27,7 +27,7 @@ interface Invite {
 	public function deleteInvite(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/invite#get-invite
+	 * @see https://discord.com/developers/docs/resources/invite#get-invite
 	 *
 	 * @param array $options ['invite.code' => 'string', 'with_counts' => 'boolean', 'with_expiration' => 'boolean', 'guild_scheduled_event_id' => 'snowflake']
 	 * @return array

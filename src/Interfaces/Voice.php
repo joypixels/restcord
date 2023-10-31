@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface Voice {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/voice#list-voice-regions
+	 * @see https://discord.com/developers/docs/resources/voice#list-voice-regions
 	 *
 	 * @param array $options []
 	 * @return array

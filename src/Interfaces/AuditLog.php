@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface AuditLog {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/audit-log#get-guild-audit-log
+	 * @see https://discord.com/developers/docs/resources/audit-log#get-guild-audit-log
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'user_id' => 'snowflake', 'action_type' => 'integer', 'before' => 'snowflake', 'limit' => 'integer']
 	 * @return array

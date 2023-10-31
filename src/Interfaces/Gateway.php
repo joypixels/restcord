@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface Gateway {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/topics/gateway#get-gateway
+	 * @see https://discord.com/developers/docs/topics/gateway#get-gateway
 	 *
 	 * @param array $options []
 	 * @return array
@@ -27,7 +27,7 @@ interface Gateway {
 	public function getGateway(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/topics/gateway#get-gateway-bot
+	 * @see https://discord.com/developers/docs/topics/gateway#get-gateway-bot
 	 *
 	 * @param array $options ['total' => 'integer', 'remaining' => 'integer', 'reset_after' => 'integer', 'max_concurrency' => 'integer']
 	 * @return array

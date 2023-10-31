@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface User {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#create-dm
+	 * @see https://discord.com/developers/docs/resources/user#create-dm
 	 *
 	 * @param array $options ['recipient_id' => 'snowflake']
 	 * @return array
@@ -27,7 +27,7 @@ interface User {
 	public function createDm(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#create-group-dm
+	 * @see https://discord.com/developers/docs/resources/user#create-group-dm
 	 *
 	 * @param array $options ['access_tokens' => 'array', 'nicks' => 'dict']
 	 * @return array
@@ -35,7 +35,7 @@ interface User {
 	public function createGroupDm(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#get-current-user
+	 * @see https://discord.com/developers/docs/resources/user#get-current-user
 	 *
 	 * @param array $options []
 	 * @return array
@@ -43,7 +43,7 @@ interface User {
 	public function getCurrentUser(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#get-current-user-guilds
+	 * @see https://discord.com/developers/docs/resources/user#get-current-user-guilds
 	 *
 	 * @param array $options ['before' => 'snowflake', 'after' => 'snowflake', 'limit' => 'integer']
 	 * @return array
@@ -51,7 +51,7 @@ interface User {
 	public function getCurrentUserGuilds(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#get-user
+	 * @see https://discord.com/developers/docs/resources/user#get-user
 	 *
 	 * @param array $options ['user.id' => 'snowflake']
 	 * @return array
@@ -59,7 +59,7 @@ interface User {
 	public function getUser(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#get-user-connections
+	 * @see https://discord.com/developers/docs/resources/user#get-user-connections
 	 *
 	 * @param array $options []
 	 * @return array
@@ -67,7 +67,7 @@ interface User {
 	public function getUserConnections(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#leave-guild
+	 * @see https://discord.com/developers/docs/resources/user#leave-guild
 	 *
 	 * @param array $options ['guild.id' => 'snowflake']
 	 * @return array
@@ -75,7 +75,7 @@ interface User {
 	public function leaveGuild(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/user#modify-current-user
+	 * @see https://discord.com/developers/docs/resources/user#modify-current-user
 	 *
 	 * @param array $options ['username' => 'string', 'avatar' => 'image data']
 	 * @return array

@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface Oauth2 {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/topics/oauth2#get-current-authorization-information
+	 * @see https://discord.com/developers/docs/topics/oauth2#get-current-authorization-information
 	 *
 	 * @param array $options ['application' => 'object', 'scopes' => 'array', 'expires' => 'ISO8601 timestamp', 'user' => 'object']
 	 * @return array
@@ -27,7 +27,7 @@ interface Oauth2 {
 	public function getCurrentAuthorizationInformation(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/topics/oauth2#get-current-bot-application-information
+	 * @see https://discord.com/developers/docs/topics/oauth2#get-current-bot-application-information
 	 *
 	 * @param array $options []
 	 * @return array

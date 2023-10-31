@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface StageInstance {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/stage-instance#create-stage-instance
+	 * @see https://discord.com/developers/docs/resources/stage-instance#create-stage-instance
 	 *
 	 * @param array $options ['channel_id' => 'snowflake', 'topic' => 'string', 'privacy_level' => 'integer']
 	 * @return array
@@ -27,7 +27,7 @@ interface StageInstance {
 	public function createStageInstance(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/stage-instance#delete-stage-instance
+	 * @see https://discord.com/developers/docs/resources/stage-instance#delete-stage-instance
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return array
@@ -35,7 +35,7 @@ interface StageInstance {
 	public function deleteStageInstance(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/stage-instance#get-stage-instance
+	 * @see https://discord.com/developers/docs/resources/stage-instance#get-stage-instance
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return array
@@ -43,7 +43,7 @@ interface StageInstance {
 	public function getStageInstance(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/stage-instance#modify-stage-instance
+	 * @see https://discord.com/developers/docs/resources/stage-instance#modify-stage-instance
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'topic' => 'string', 'privacy_level' => 'integer']
 	 * @return array

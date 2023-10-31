@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface Sticker {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/sticker#create-guild-sticker
+	 * @see https://discord.com/developers/docs/resources/sticker#create-guild-sticker
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'name' => 'string', 'description' => 'string', 'tags' => 'string', 'file' => 'file contents']
 	 * @return array
@@ -27,7 +27,7 @@ interface Sticker {
 	public function createGuildSticker(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/sticker#delete-guild-sticker
+	 * @see https://discord.com/developers/docs/resources/sticker#delete-guild-sticker
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'sticker.id' => 'string']
 	 * @return array
@@ -35,7 +35,7 @@ interface Sticker {
 	public function deleteGuildSticker(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/sticker#get-guild-sticker
+	 * @see https://discord.com/developers/docs/resources/sticker#get-guild-sticker
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'sticker.id' => 'string']
 	 * @return array
@@ -43,7 +43,7 @@ interface Sticker {
 	public function getGuildSticker(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/sticker#get-sticker
+	 * @see https://discord.com/developers/docs/resources/sticker#get-sticker
 	 *
 	 * @param array $options ['sticker.id' => 'string']
 	 * @return array
@@ -51,7 +51,7 @@ interface Sticker {
 	public function getSticker(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/sticker#list-guild-stickers
+	 * @see https://discord.com/developers/docs/resources/sticker#list-guild-stickers
 	 *
 	 * @param array $options ['guild.id' => 'snowflake']
 	 * @return array
@@ -59,7 +59,7 @@ interface Sticker {
 	public function listGuildStickers(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/sticker#list-nitro-sticker-packs
+	 * @see https://discord.com/developers/docs/resources/sticker#list-nitro-sticker-packs
 	 *
 	 * @param array $options ['sticker_packs' => 'array']
 	 * @return array
@@ -67,7 +67,7 @@ interface Sticker {
 	public function listNitroStickerPacks(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/sticker#modify-guild-sticker
+	 * @see https://discord.com/developers/docs/resources/sticker#modify-guild-sticker
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'sticker.id' => 'string', 'name' => 'string', 'description' => 'string', 'tags' => 'string']
 	 * @return array

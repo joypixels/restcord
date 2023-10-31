@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface GuildTemplate {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/guild-template#create-guild-from-guild-template
+	 * @see https://discord.com/developers/docs/resources/guild-template#create-guild-from-guild-template
 	 *
 	 * @param array $options ['template.code' => 'string', 'name' => 'string', 'icon' => 'image data']
 	 * @return array
@@ -27,7 +27,7 @@ interface GuildTemplate {
 	public function createGuildFromGuildTemplate(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/guild-template#create-guild-template
+	 * @see https://discord.com/developers/docs/resources/guild-template#create-guild-template
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'name' => 'string', 'description' => 'string']
 	 * @return array
@@ -35,7 +35,7 @@ interface GuildTemplate {
 	public function createGuildTemplate(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/guild-template#delete-guild-template
+	 * @see https://discord.com/developers/docs/resources/guild-template#delete-guild-template
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'template.code' => 'string']
 	 * @return array
@@ -43,7 +43,7 @@ interface GuildTemplate {
 	public function deleteGuildTemplate(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/guild-template#get-guild-template
+	 * @see https://discord.com/developers/docs/resources/guild-template#get-guild-template
 	 *
 	 * @param array $options ['template.code' => 'string']
 	 * @return array
@@ -51,7 +51,7 @@ interface GuildTemplate {
 	public function getGuildTemplate(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/guild-template#get-guild-templates
+	 * @see https://discord.com/developers/docs/resources/guild-template#get-guild-templates
 	 *
 	 * @param array $options ['guild.id' => 'snowflake']
 	 * @return array
@@ -59,7 +59,7 @@ interface GuildTemplate {
 	public function getGuildTemplates(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/guild-template#modify-guild-template
+	 * @see https://discord.com/developers/docs/resources/guild-template#modify-guild-template
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'template.code' => 'string', 'name' => 'string', 'description' => 'string']
 	 * @return array
@@ -67,7 +67,7 @@ interface GuildTemplate {
 	public function modifyGuildTemplate(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/guild-template#sync-guild-template
+	 * @see https://discord.com/developers/docs/resources/guild-template#sync-guild-template
 	 *
 	 * @param array $options ['guild.id' => 'snowflake', 'template.code' => 'string']
 	 * @return array

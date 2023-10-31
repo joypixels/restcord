@@ -155,8 +155,8 @@ $client->channel->createMessage(
  foo(1);```',
         'embed'      => [
             'title'       => 'title ~~(did you know you can have markdown here too?)~~',
-            'description' => "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
-            'url'         => 'https://discordapp.com',
+            'description' => "this supports [named links](https://discord.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
+            'url'         => 'https://discord.com',
             'color'       => 14290439,
             'timestamp'   => '2017-02-20T18:05:58.512Z',
             'footer'      => [
@@ -171,7 +171,7 @@ $client->channel->createMessage(
             ],
             'author'      => [
                 'name'     => 'author name',
-                'url'      => 'https://discordapp.com',
+                'url'      => 'https://discord.com',
                 'icon_url' => 'https://cdn.discordapp.com/embed/avatars/0.png',
             ],
             'fields'      => [
